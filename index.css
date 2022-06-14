@@ -4,8 +4,7 @@
 }
 body{
     background-color:rgb(236, 228, 228);
-    font-size:15px;
-    
+    font-size:15px;    
 }
 
 main{
@@ -17,6 +16,16 @@ main{
     height:100vh;
     
 }
+.first-button{
+    text-align:center;
+    margin:30px 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border-radius:20px;
+    padding:15px 32px;
+    color:hsl(31, 77%, 52%);
+    border:none;
+}
 .first{
     padding:20px;
     background-color: hsl(31, 77%, 52%);
@@ -26,9 +35,10 @@ main{
 }
 .first h3{
     color:hsl(0, 0%, 95%);
-    font-family:lexend Deca;
-    font-weight: 400;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
     margin-top:30px;
+    font-size:28px;
 }
 .second{
     padding:20px;
@@ -38,9 +48,10 @@ main{
 }
 .second h3{
     color:hsl(0, 0%, 95%);
-    font-family:Big Shoulders Display;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight:700;
     margin-top:30px;
+    font-size:28px;
 }
 .third{
     padding:20px;
@@ -51,15 +62,37 @@ main{
 }
 .third h3{
     color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:28px;
+    font-weight:700;
     margin-top:30px;
+    
 }
-button{
-    margin-top:10px;
-    color:hsl(0, 0%, 95%);
+.second-button{
+    color:hsl(184, 100%, 22%);
+    padding:15px 32px;
+    text-align:center;
+    margin:30px 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border-radius:20px;
+    border:none;
 }
 p{
     margin-top:40px;
     color: hsl(0,0%,100%,0.75);
-    font-family:lexend Deca;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    font-size:13px;
+}
+.third button{
+    color:hsl(179, 100%, 13%);
+    background-color:rgb(236, 228, 228);
+    padding:15px 32px;
+    text-align:center;
+    margin:30px 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border-radius:20px;
+    border:none;
 }
