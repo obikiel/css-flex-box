@@ -3,102 +3,77 @@
     padding:0;
 }
 body{
-    background-color:rgb(236, 228, 228);
-    font-size:15px;  
-
+    background-color:rgb(252, 246, 246);
 }
 
  main{
-    display:grid;
-    grid-template-areas:
-    'a b c'
-    ;
-    width:50%;
-    margin:100px 300px 0px;
+    width: 80%;
+    margin:auto;
+    margin-top:100px;
+    display:flex;
+    background-color: black;
+    height:80vh;
+    align-items: center;
+    
+ }
+.a{
+    background-color:rgb(228, 56, 56);
+    margin:auto;
+    width:10vh;
+    height:10vh;
+    float:left;
+}
+.b{
+    background-color:rgb(233, 163, 59);
+    border:1px solid black;
+    height:10vh;
+    width:10vh;
+    float:right;
+}
+ .c{
 
+    background-color: green;
+    border:1px solid black;
+    height:10vh;
+    width:10vh;
+    float:left;
+ }
+ .d{
+  
+    background-color:blue;
+    border:1px solid black;
+    height:10vh;
+    width:10vh;
+    float:right;
+ }
+ .e{
+   
+    background-color:blue;
+    border:1px solid black;
+    height:10vh;
+    width:10vh;
  }
 
- p{
-    margin-top:40px;
-    color: hsl(0,0%,100%,0.75);
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    font-size:13px;
-}
-.third button{
-    color:hsl(179, 100%, 13%);
-    background-color:rgb(236, 228, 228);
-    padding:15px 32px;
-    text-align:center;
-    margin:10px 2px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    border-radius:20px;
-    border:none;
-}
-.second-button{
-    color:hsl(184, 100%, 22%);
-    padding:15px 32px;
-    text-align:center;
-    margin:10px 2px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    border-radius:20px;
-    border:none;
-}
-.third{
-    padding:20px;
-    background-color: hsl(179, 100%, 13%);
-    color:white;
-    height:400px;
-    border-radius:0px 10px 10px 0px;
-    grid-area:c;
-}
-.third h3{
-    color:hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', cursive;
-    font-size:28px;
-    font-weight:700;
-    margin-top:30px;
-    
-}
-.first{
-    padding:20px;
-    background-color: hsl(31, 77%, 52%);
-    color:white;
-    height:400px;
-    border-radius:10px 0px 0px 10px;
-    grid-area: a;
-    width:
-}
-.first h3{
-    color:hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
-    margin-top:30px;
-    font-size:28px;
-}
-.second{
-    padding:20px;
-    background-color:hsl(184, 100%, 22%);
-    color:white;
-    height:400px;
-    grid-area:b;
-}
-.second h3{
-    color:hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight:700;
-    margin-top:30px;
-    font-size:28px;
-}
-.first-button{
-    text-align:center;
-    margin:10px 2px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    border-radius:20px;
-    padding:15px 32px;
-    color:hsl(31, 77%, 52%);
-    border:none;
-}
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="grid.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&family=Lexend+Zetta&display=swap" rel="stylesheet">
+        <title> A design using css grid</title>
+
+    </head>
+    <body>
+        <main>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+        </main>
+    </body>
+</html>
